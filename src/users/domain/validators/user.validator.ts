@@ -14,15 +14,18 @@ export class UserRules {
   @IsString()
   @IsNotEmpty()
   name: string
+
   @IsEmail()
   @MaxLength(255)
   @IsString()
   @IsNotEmpty()
   email: string
+
   @MaxLength(255)
   @IsString()
   @IsNotEmpty()
   password: string
+
   @IsDate()
   @IsOptional()
   createdAt: Date
