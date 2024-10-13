@@ -1,6 +1,6 @@
 import { NotFoundError } from './../../../errors/not-found-error'
 import { Entity } from '@/shared/domain/entities/entity'
-import { InMemoryRepository } from '../../in-mmory.repository'
+import { InMemoryRepository } from '../../in-memory.repository'
 
 type StubEntityProps = {
   name: string
